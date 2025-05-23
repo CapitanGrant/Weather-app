@@ -5,7 +5,7 @@ $(function() {
                 url: "https://api.opencagedata.com/geocode/v1/json",
                 data: {
                     q: request.term,
-                    key: "08cd053b55a64895a3435d7dc7264d56"
+                    key: "2f96942a6c5e43929f6fbecb1e51071e"
                 },
                 success: function(data) {
                     response(data.results.map(function(item) {
